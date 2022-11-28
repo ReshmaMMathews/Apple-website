@@ -318,6 +318,8 @@ header{
         padding: 10.5rem 5rem;
         z-index: 1000;
         box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
         transition: opacity .3s;
     }
 
@@ -325,6 +327,7 @@ header{
         width: 100%;
         height: 100vh;
         opacity: 1;
+        visibility: visible;
     }
 
     .active .nav-link-bag{
@@ -342,6 +345,10 @@ header{
         border-bottom: none;
     }
     
+    .active .nav-list-larger .nav-item{
+        animation: fadeIn 1s ease-in;
+    }
+
     @keyframes fadeIn {
         from{
             opacity: 0;
