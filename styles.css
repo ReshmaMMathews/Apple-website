@@ -283,4 +283,33 @@ header{
         transform: rotate(-45deg);
         transition: transform .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);        
     }
+
+    header.active{
+        height: 100%;
+        background-color: #000;
+    }
+
+    .nav-link-apple{
+        width: 1.8rem;
+        height: 4.8rem;
+        position: relative;
+        z-index: 1500;
+    }
+
+    .nav-link-bag{
+        width: 1.6rem;
+        height: 4.8rem;
+        transition: opacity 3s;
+    }
+
+    .nav{
+        position: relative;
+    }
+
+    .nav-link{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: auto 0;
+    }
+
 }
