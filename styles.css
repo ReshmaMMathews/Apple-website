@@ -332,7 +332,16 @@ header{
         transition: opacity .3s;
     }
 
-    
+    .nav-list-larger .nav-item{
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255, 255, 255, .1);
+    }
+
+    .nav-list-larger .nav-item:nth-child(9){
+        border-bottom: none;
+    }
+
     
 
 }
