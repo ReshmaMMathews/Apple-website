@@ -341,7 +341,15 @@ header{
     .nav-list-larger .nav-item:nth-child(9){
         border-bottom: none;
     }
-
+    
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
     
 
 }
